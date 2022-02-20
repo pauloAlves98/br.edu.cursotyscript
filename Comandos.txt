@@ -1,3 +1,4 @@
+npm instala - npx roda pacote - node executa proketo
 npm init -y - inicia projeto node
 
 
@@ -30,4 +31,16 @@ npx tsc --init  - inicia arquivo de config ts
 ------- RESUMO DE CONFIGURAÇÃO --------------
 
 1º CONFIGURAR VSCODE ARA RODAR ESLINT
-2ª INICIAR PROJETO NODE - npm init -y
+2ª INICIAR PROJETO NODE - npm init -y e type : npm i typescript@3.9.5 -D - instala o type nessa versão
+    INSTALAR ts-node e coderunner (para executar no play so vs)
+3º CONFIGURAR ESLINT (npm i eslint -D)
+    CRIAR ARQUIVO .eslintrc.js
+4º Instalar plugins pretier e eslint ("@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",)
+5º CRIAR EDITOR CONFIGURAR
+6º INCIAR CODIFICAÇÃO
+____________________________
