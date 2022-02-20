@@ -1,3 +1,6 @@
+npm init -y - inicia projeto node
+
+
 node index.ts - executa o arqivo no console
 npx tsc index.ts - converte o arquivo ts para js.
 npm i typescript@3.9.5 -D - instala o type nessa versão
@@ -8,7 +11,7 @@ Se importar ou exportar algo arquivo - modion mode (Váriaveis e funcões em arq
 EXECUTOR DO VSCODE
 {
     "code-runner.executorMap": {
-        "typescript": "npx ts-node --files" 
+        "typescript": "npx ts-node --files"
     }
 }
 eslint (para reconhecer sitaxe errada no vscode)
@@ -19,3 +22,12 @@ depois criei o arquivo .eslintrc
 npm i prettier@2.0.5 eslint-plugin-prettier "eslint-config-prettier" -D
 
 o prittier serve para fazer interação com eslint
+
+arquivo prettier configurado na mão + arquivo eslintrc
+
+npx tsc --init  - inicia arquivo de config ts
+
+------- RESUMO DE CONFIGURAÇÃO --------------
+
+1º CONFIGURAR VSCODE ARA RODAR ESLINT
+2ª INICIAR PROJETO NODE - npm init -y
