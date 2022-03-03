@@ -5,11 +5,11 @@ const objetoA: {
     // readonly chaveC - não seria permitido a alteração desse atributo após inferencia de valor
 } = {
     //O uso de const exige uma iniciação do objeto construído!
-    //Insto é uma inicialização
+    //Isto é uma inicialização
     chaveA: 'Um valor',
-    chaveB: 'Dois',
+    chaveB: 'Dois Valores',
 };
 
-objetoA.chaveB = 'Mais um valor';
+objetoA.chaveB = 'Mais um valor'; //modificação de valor
 
 console.log(objetoA);
