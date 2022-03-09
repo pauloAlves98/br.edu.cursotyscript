@@ -9,7 +9,7 @@ enum Cores {
 // }
 console.log(Cores[Cores.N]);
 
-function escolhaACor(cor: Cores): void {
+export function escolhaACor(cor: Cores): void {
     console.log(cor);
 }
 

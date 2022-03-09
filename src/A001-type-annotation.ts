@@ -26,4 +26,4 @@ function soma(x:number,y:number):number{
 //Funcão Alias
 const soma2: (x:number,y:number) => number = (x,y)=> x + y; //= (x,y)=> x + y; é o valor, oq vem antes é declaração
 
-
+export default 1;
